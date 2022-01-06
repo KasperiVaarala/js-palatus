@@ -21,3 +21,9 @@ function yesFunction(){
     document.getElementById("answer_image").setAttribute('src', answerObject.image);
 }
 
+let
+function refreshPage(){
+location.reload()
+return false;
+}
+
